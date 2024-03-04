@@ -1,0 +1,89 @@
+.btn__mode {
+    padding: 0rem 0.5rem;
+    height: 30px;
+    background-color: var(--color-grey-8);
+    border: 0.0625rem solid var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+
+.btn__mode:hover {
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-7);
+    border: 0.0625rem solid var(--color-grey-7);
+    transition: 0.5s;
+}
+
+
+.btn__category--active {
+     font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+    color: var(--color-white-fixed);
+    padding: 0rem 0.5rem;
+    height: 1.875rem;
+    background-color: var(--color-actived-fixed);
+    border: 0.0625rem solid var(--color-white-fixed);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+
+.btn_submit {
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+    color: var(--color-grey-2);
+    padding: 0rem 0.5rem;
+    height: 1.875rem;
+    background-color: var(--color-grey-7);
+    border: 0.0625rem solid var(--color-grey-7);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+
+.btn_submit:hover {
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-8);
+    border: 0.0625rem solid var(--color-grey-8);
+    transition: 0.5s;
+}
+
+
+.btn_submit:focus {
+    color: var(--color-white-fixed);
+    background-color: var(--color-actived-fixed);
+    border: 0.0625rem solid var(--color-white-fixed);
+    transition: 0.5s;
+}
+
+
+.btn__category {
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+    color: var(--color-grey-2);
+    padding: 0rem 0.5rem;
+    height: 1.875rem;
+    background-color: var(--color-grey-8);
+    border: 0.0625rem solid var(--color-grey-8);
+    border-radius: var(--radius-1);
+    cursor: pointer;
+}
+
+
+.btn__category:hover {
+    color: var(--color-grey-2);
+    background-color: var(--color-grey-7);
+    border: 0.0625rem solid var(--color-grey-7);
+    transition: 0.5s;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,39 @@
+.dark__mode .musical__genre--container > h2 {
+    color: var(--color-grey-5);
+}
+
+
+.dark__mode .btn__category {
+    color: var(--color-grey-6);
+}
+
+
+.dark__mode .setPrice__container > div > p {
+    color: var(--color-grey-5);
+}
+
+
+.dark__mode .albums__found > h2 {
+    color: var(--color-grey-5);
+}
+
+
+.dark__mode .card__list:hover {
+    background-color: var(--color-grey-7);
+    transition: 0.5s;
+}
+
+
+.dark__mode .cards__render--product > li > figure > div > p {
+    color: var(--color-grey-6);
+}
+
+
+.dark__mode .price_area > p {
+    color: var(--color-grey-1);
+}
+
+
+.dark__mode .btn__mode {
+    color: var(--color-grey-6);
+}

@@ -1,0 +1,224 @@
+.header__container {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 0rem;
+    left: 0rem;
+    width: 100%;
+}
+
+
+.header__container>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4.6875rem auto 4.0625rem;
+    width: var(--container);
+    height: 2.5rem;
+}
+
+
+.header__container>div>h1 {
+    color: var(--color-grey-1);
+    font-size: var(--font-1);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+
+.musical__genre {
+    /*section*/
+    display: flex;
+    flex-direction: column;
+    gap: 3.75rem;
+}
+
+
+.musical__genre--container {
+    /*div*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8.75rem;
+}
+
+
+.musical__genre--container>h2 {
+    /*div*/
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+
+.musical__genre--container>ul {
+    /*div*/
+    display: flex;
+    flex-wrap: wrap;
+    height: 6rem;
+    gap: 1.875rem 2.4813rem;
+}
+
+
+.musical__genre--container>ul>li {
+    /*div*/
+    height: 2rem;
+}
+
+
+.card__list {
+    background-color: var(--color-grey-8);
+}
+
+
+.card__list:hover {
+    background-color: var(--color-grey-6);
+    transition: 0.6s;
+}
+
+
+.dark__mode .card__list:hover {
+    background-color: var(--color-grey-7);
+    transition: 0.5s;
+}
+
+
+.setPrice__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 4.375rem;
+}
+
+
+.setPrice__container>div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.25rem;
+}
+
+
+.setPrice__container>div>h2 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+}
+
+
+.setPrice__container>div>p {
+    color: var(--color-grey-2);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+}
+
+
+.setPrice__container>input {
+    height: 1.5625rem;
+}
+
+
+.albums__found {
+    /* section2*/
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    gap: 3.75rem;
+}
+
+
+.albums__found>h2 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+
+#cards__render--product {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    gap: 2.5rem 1.5625rem;
+}
+
+
+#cards__render--product>li {
+    display: flex;
+    flex-direction: column;
+    width: 21.25rem;
+    border-radius: 0.25rem;
+    gap: 0.75rem;
+}
+
+
+#cards__render--product>li>figure {
+    margin: 0rem;
+}
+
+
+#cards__render--product>li>figure>img {
+    width: 100%;
+    height: 7.1875rem;
+    border-radius: 0.25rem / 0.25rem 0.25rem 0rem 0rem;
+    background-size: cover;
+}
+
+
+#cards__render--product>li>figure>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1rem;
+    width: max-content;
+    height: 0.9375rem;
+    gap: 1.25rem;
+}
+
+
+#cards__render--product>li>figure>div>p {
+    color: var(--color-grey-2);
+    font-size: var(--font-4);
+    font-weight: var(--font-weight-2);
+    line-height: var(--line-height-1);
+}
+
+
+#cards__render--product>li>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0rem 1rem 1.25rem;
+    gap: 1.875rem;
+}
+
+
+#cards__render--product>li>div>h2 {
+    color: var(--color-grey-1);
+    font-size: var(--font-2);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
+
+
+.price_area {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 8.75rem;
+}
+
+
+.price_area>p {
+    color: var(--color-grey-1);
+    font-size: var(--font-3);
+    font-weight: var(--font-weight-1);
+    line-height: var(--line-height-1);
+}
